@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ARC Noord Nederland</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="js/dropdown.js"></script>
+</head>
+
+<body class="bg-white text-gray-800">
+  <header class="bg-gray-900 text-white">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <span class="text-xl font-bold">ARC Noord Nederland</span>
+
+      <nav class="hidden md:flex gap-8 text-sm font-semibold">
+        <a href="index.html" class="text-pink-400">Home</a>
+        <a href="pages/informatie.html" class="hover:text-pink-400">Informatie</a>
+        <a href="pages/rooster.html" class="hover:text-pink-400">Trainers</a>
+        <a href="pages/formulier.html" class="hover:text-pink-400">Inschrijven</a>
+        <a href="pages/clubnieuws.html" class="hover:text-pink-400">Clubnieuws</a>
+        <a href="pages/foto's.html" class="hover:text-pink-400">Foto's</a>
+        <a href="pages/contact.html" class="hover:text-pink-400">Contact</a>
+      </nav>
+
+      <button id="menu-btn" class="md:hidden text-2xl">☰</button>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden flex flex-col bg-gray-800 text-start py-4 pl-6 space-y-4">
+      <a href="pages/index.html" class="text-pink-400">Home</a>
+      <a href="pages/informatie.html" class="hover:text-pink-400">Informatie</a>
+      <a href="pages/rooster.html" class="hover:text-pink-400">Trainers</a>
+      <a href="pages/formulier.html" class="hover:text-pink-400">Inschrijven</a>
+      <a href="pages/clubnieuws.html" class="hover:text-pink-400">Clubnieuws</a>
+      <a href="pages/foto's.html" class="hover:text-pink-400">Foto's</a>
+      <a href="pages/contact.html" class="hover:text-pink-400">Contact</a>
+    </div>
+  </header>
+
+  <section class="relative h-[70vh] md:h-[92vh] overflow-hidden">
+    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('img/hero.png');">
+    </div>
+
+    <div class="absolute inset-0 bg-black/60"></div>
+
+    <div class="relative max-w-7xl mx-auto px-6 h-full flex flex-col justify-center text-center text-white">
+      <h1 class="text-4xl md:text-5xl font-bold mb-6 drop-shadow-lg">
+        Rolschaatsen doe je bij ARC Noord Nederland
+      </h1>
+      <p class="max-w-3xl mx-auto text-lg md:text-xl mb-8 drop-shadow">
+        Rolschaatsen, plezier, passie, demonstraties, topsport en show.
+        Voor jong en oud, beginners en topsporters.
+      </p>
+      <div>
+        <a href="pages/formulier.html"
+          class="inline-block bg-pink-500 hover:bg-pink-600 transition text-white font-semibold px-8 py-4 rounded-xl shadow-lg">
+          Kom een keer kijken
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-6 py-20">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl font-bold mb-4">Welkom bij ARC Noord Nederland</h2>
+      <p class="max-w-3xl mx-auto text-gray-600">
+        Dé rolschaatsvereniging waar sport, plezier en creativiteit samenkomen.
+        Wij bieden trainingen, shows en wedstrijden in een veilige en gezellige omgeving.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-10">
+      <div class="bg-gray-100 p-8 rounded-2xl shadow">
+        <h3 class="text-xl font-bold mb-3">🛼 Rolschaatsen</h3>
+        <p>Trainingen voor elk niveau: van beginners tot ervaren wedstrijdschaatsers.</p>
+      </div>
+
+      <div class="bg-gray-100 p-8 rounded-2xl shadow">
+        <h3 class="text-xl font-bold mb-3">✨ Show & Demonstraties</h3>
+        <p>Kleurrijke optredens met passie, creativiteit en uitstraling op wieltjes.</p>
+      </div>
+
+      <div class="bg-gray-100 p-8 rounded-2xl shadow">
+        <h3 class="text-xl font-bold mb-3">🏆 Topsport</h3>
+        <p>Begeleiding voor talentontwikkeling en deelname aan wedstrijden.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-6 py-24">
+    <div class="grid md:grid-cols-2 gap-16 items-center">
+
+      <div>
+        <h2 class="text-4xl font-bold mb-6">
+          Over ons
+        </h2>
+        <p class="text-lg text-gray-600 mb-6">
+          Een jonge club opgericht in 2019 en al meerdere keren in de prijzen gevallen. Wij organiseren regelmatig
+          stages met buitenlandse trainers. Vaardigheden van het rolschaatsen leer je van deskundige gediplomeerde
+          trainers, die al jaren betrokken zijn bij het rolschaatsen en een hart voor deze sport hebben. Les krijgen van
+          een meervoudig Nederlands Kampioen wie wil dat niet.
+        </p>
+        <p class="text-gray-600">
+          Van eerste meters tot podiumplaatsen. Van recreatief tot topsport.
+          Bij ons draait het om samen sterker worden.
+        </p>
+      </div>
+
+      <div>
+        <img src="img/team.png" class="rounded-3xl shadow-xl" />
+      </div>
+
+    </div>
+  </section>
+  <footer class="bg-gray-900 text-gray-300">
+    <div class="max-w-7xl mx-auto px-6 py-8 text-center text-sm">
+      © 2026 ARC Noord Nederland · Alle rechten voorbehouden
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin | ARC Noord Nederland</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800 min-h-screen">
+
+    <header class="bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-xl font-bold">ARC Noord Nederland - Admin</span>
+            <a href="../index.html" class="text-sm hover:text-pink-400">
+                ← Terug naar website
+            </a>
+        </div>
+    </header>
+
+    <section class="py-16 bg-gray-200">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h1 class="text-4xl font-bold mb-4">Clubnieuws Beheer</h1>
+            <p class="text-gray-600">
+                Voeg nieuwsitems toe of verwijder bestaande berichten.
+            </p>
+        </div>
+    </section>
+
+    <section class="max-w-4xl mx-auto px-6 py-16 space-y-16">
+
+        <div class="bg-white rounded-2xl shadow-lg p-10">
+            <h2 class="text-2xl font-bold mb-8">Nieuw nieuwsitem toevoegen</h2>
+
+            <form class="space-y-6">
+
+                <div>
+                    <label class="block font-semibold mb-2">Titel</label>
+                    <input type="text"
+                        class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-pink-400"
+                        placeholder="Bijv. Sportman/vrouw verkiezing 2026">
+                </div>
+
+                <div>
+                    <label class="block font-semibold mb-2">Korte beschrijving</label>
+                    <textarea rows="4"
+                        class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-pink-400"
+                        placeholder="Korte introductietekst voor op de overzichtspagina"></textarea>
+                </div>
+
+                <div>
+                    <label class="block font-semibold mb-2">Afbeelding uploaden</label>
+                    <input type="file" class="w-full border border-gray-300 rounded-lg p-3 bg-white">
+                </div>
+
+                <div>
+                    <label class="block font-semibold mb-2">Volledige inhoud</label>
+                    <textarea rows="6"
+                        class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-pink-400"
+                        placeholder="Volledige tekst voor de detailpagina"></textarea>
+                </div>
+
+                <button type="button"
+                    class="bg-pink-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-pink-600 transition">
+                    Publiceren
+                </button>
+
+            </form>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-lg p-10">
+            <h2 class="text-2xl font-bold mb-8">Bestaande nieuwsitems</h2>
+
+            <div class="space-y-6">
+
+                <div class="flex justify-between items-center border-b pb-4">
+                    <div>
+                        <h3 class="font-bold text-lg">Sportman/vrouw verkiezing 2024 🏆</h3>
+                        <p class="text-gray-600 text-sm">Gepubliceerd op 12 februari 2026</p>
+                    </div>
+                    <div class="flex gap-4">
+                        <button class="bg-yellow-400 text-white px-4 py-2 rounded-lg hover:bg-yellow-500">
+                            Bewerken
+                        </button>
+                        <button class="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600">
+                            Verwijderen
+                        </button>
+                    </div>
+                </div>
+
+                <div class="flex justify-between items-center">
+                    <div>
+                        <h3 class="font-bold text-lg">Carnaval Rollerdisco Party 🎭</h3>
+                        <p class="text-gray-600 text-sm">Gepubliceerd op 5 februari 2026</p>
+                    </div>
+                    <div class="flex gap-4">
+                        <button class="bg-yellow-400 text-white px-4 py-2 rounded-lg hover:bg-yellow-500">
+                            Bewerken
+                        </button>
+                        <button class="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600">
+                            Verwijderen
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="bg-gray-900 text-gray-300">
+        <div class="max-w-7xl mx-auto px-6 py-8 text-center text-sm">
+            © 2026 ARC Noord Nederland · Admin omgeving
+        </div>
+    </footer>
+
+</body>
+
+</html>

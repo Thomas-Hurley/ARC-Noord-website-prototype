@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <title>Trainers | ARC Noord Nederland</title>
+    <script defer src="../js/dropdown.js"></script>
+</head>
+
+<body class="bg-white text-gray-800">
+
+    <header class="bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-xl font-bold">ARC Noord Nederland</span>
+
+            <nav class="hidden md:flex gap-8 text-sm font-semibold">
+                <a href="../index.html" class="hover:text-pink-400">Home</a>
+                <a href="informatie.html" class="hover:text-pink-400">Informatie</a>
+                <a href="rooster.html" class="text-pink-400">Trainers</a>
+                <a href="formulier.html" class="hover:text-pink-400">Inschrijven</a>
+                <a href="clubnieuws.html" class="hover:text-pink-400">Clubnieuws</a>
+                <a href="foto's.html" class="hover:text-pink-400">Foto's</a>
+                <a href="contact.html" class="hover:text-pink-400">Contact</a>
+            </nav>
+
+            <button id="menu-btn" class="md:hidden text-2xl">
+                ☰
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden flex flex-col bg-gray-800 py-4 px-6 space-y-4">
+            <a href="../index.html" class="hover:text-pink-400">Home</a>
+            <a href="informatie.html" class="hover:text-pink-400">Informatie</a>
+            <a href="rooster.html" class="text-pink-400">Trainers</a>
+            <a href="formulier.html" class="hover:text-pink-400">Inschrijven</a>
+            <a href="clubnieuws.html" class="hover:text-pink-400">Clubnieuws</a>
+            <a href="foto's.html" class="hover:text-pink-400">Foto's</a>
+            <a href="contact.html" class="hover:text-pink-400">Contact</a>
+        </div>
+    </header>
+
+    <section class="bg-gray-100 py-20">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">Trainers/Trainingsrooster</h1>
+            <p class="max-w-2xl mx-auto text-gray-600 text-lg">
+                Hieronder vindt je onze trainers en ons trainingsrooster.
+                Mocht je enthousiast zijn geworden over deze fantastische sport,
+                voel je vrij om langs te komen om te kijken of mee te doen!
+                Onze club beschikt over een beperkt aantal kunstrolschaatsen
+                die eventueel geleend kunnen worden.
+            </p>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 py-16 border-b">
+        <h2 class="text-3xl font-bold text-center mb-12">Trainers</h2>
+
+        <div class="grid gap-10 md:grid-cols-3">
+
+            <div class="bg-white rounded-3xl shadow-lg p-6 text-center">
+                <img class="rounded-2xl w-full h-100 object-cover mb-6" src="../img/willie-meering-trainer.jpg"
+                    alt="Willie Meering">
+                <h3 class="text-xl font-bold mb-3">Willie Meering</h3>
+                <p class="text-gray-600">
+                    Meervoudig Nederlands Kampioen Vrijrijden en Paarrijden,
+                    en Nationaal Dataoperator
+                </p>
+            </div>
+
+            <div class="bg-white rounded-3xl shadow-lg p-6 text-center">
+                <img class="rounded-2xl w-full h-100 object-cover mb-6" src="../img/danielle-von-Henning-trainer.jpg"
+                    alt="Danielle von Henning">
+                <h3 class="text-xl font-bold mb-3">Danielle von Henning</h3>
+                <p class="text-gray-600">
+                    Wedstrijdrijdster vrijrijden, figuren en roldansen,
+                    en Trainster roldans/show
+                </p>
+            </div>
+
+            <div class="bg-white rounded-3xl shadow-lg p-6 text-center">
+                <img class="rounded-2xl w-full h-100 object-cover mb-6" src="../img/gea-von-Henning-trainer.jpeg"
+                    alt="Gea von Henning">
+                <h3 class="text-xl font-bold mb-3">Gea von Henning</h3>
+                <p class="text-gray-600">
+                    Technische coördinator en Internationaal jurylid
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="max-w-5xl mx-auto px-6 py-16">
+        <h2 class="text-3xl font-bold text-center mb-10">Rooster</h2>
+
+        <div class="overflow-x-auto">
+            <table class="min-w-full border border-gray-300">
+                <thead class="bg-gray-100">
+                    <tr>
+                        <th class="border px-4 py-3 text-left">Dag</th>
+                        <th class="border px-4 py-3 text-left">Tijd</th>
+                        <th class="border px-4 py-3 text-left">Plaats</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border px-4 py-3 font-semibold">Maandag</td>
+                        <td class="border px-4 py-3">18:30 – 20:00</td>
+                        <td class="border px-4 py-3">Sporthal - D.U. Stikkerlaan - Winschoten</td>
+                    </tr>
+                    <tr>
+                        <td class="border px-4 py-3 font-semibold">Dinsdag</td>
+                        <td class="border px-4 py-3">17:30 – 18:30</td>
+                        <td class="border px-4 py-3">Jeugdspelhal - D.U. Stikkerlaan - Winschoten</td>
+                    </tr>
+                    <tr>
+                        <td class="border px-4 py-3 font-semibold">Woensdag</td>
+                        <td class="border px-4 py-3">
+                            19:00 – 20:30 (zomertijd)<br>
+                            19:00 – 20:00 (wintertijd)
+                        </td>
+                        <td class="border px-4 py-3">Sporthal - D.U. Stikkerlaan - Winschoten</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <footer class="bg-gray-900 text-gray-300">
+        <div class="max-w-7xl mx-auto px-6 py-8 text-center text-sm">
+            © 2026 ARC Noord Nederland · Alle rechten voorbehouden
+        </div>
+    </footer>
+</body>
+
+</html>
