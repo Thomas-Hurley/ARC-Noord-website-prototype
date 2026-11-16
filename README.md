@@ -25,4 +25,5 @@ Het doel van ons project is om de website helemaal te gaan redesignen en zorgen 
 * PvE.md – documentatie of uitwerking (bijv. Plan van Eisen)
 * README.md – uitleg over het project (wat het is, hoe je het gebruikt)
 
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/P7mjNSSK)
+### Mijn bijdrage
+* De main/index, informatie en clubnieuws paginas gemaakt zonder functie
